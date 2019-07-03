@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/discover/discover",
+    "pages/message/message",
+    "pages/me/me",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eee",
+    "navigationBarTitleText": "愚人旅游",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "backgroundColor": "#fff",
+    "color": "black",
+    "selectedColor": "green",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/pages/image/appStore.png",
+        "selectedIconPath": "/pages/image/appStore_selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/discover/discover",
+        "iconPath": "/pages/image/compass.png",
+        "selectedIconPath": "/pages/image/compass_selected.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "iconPath": "/pages/image/message.png",
+        "selectedIconPath": "/pages/image/message_selected.png",
+        "text": "消息"
+      },
+      {
+         "pagePath": "pages/me/me",
+         "iconPath": "/pages/image/user.png",
+         "selectedIconPath": "/pages/image/user_selected.png",
+         "text": "我"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
